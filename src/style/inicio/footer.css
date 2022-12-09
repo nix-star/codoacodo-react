@@ -1,0 +1,51 @@
+footer {
+    width: 100%;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 2px solid grey;
+    margin-top: 20px
+}
+
+.us-title {
+    height: 50px;
+}
+
+.us {
+    width: 25%;
+    height: 260px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.us-bottom {
+    height: 210px;
+    padding: 0 2% 3%;
+    text-align: justify
+}
+
+.no-border {
+    border: none
+}
+
+.footer-team {
+    background-color: rgb(160, 157, 155);
+    color: #fff;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 15px 0
+}
