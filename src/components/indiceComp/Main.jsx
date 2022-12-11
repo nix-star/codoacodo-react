@@ -5,7 +5,7 @@ import cervantes from '../images/el-amante-liberal.jpeg'
 const Main = () => {
     return (
         <main id="home">
-        <h2 class="texto-alineado">Obras clásicas y contemporáneas</h2>
+        
 < Turning />
      
 <div className="cervantes-part">

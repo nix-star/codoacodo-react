@@ -6,8 +6,10 @@ const Nav = () => {
   return (
     <>
       <header>
+        <top>
         <h1>Librería Cervantes</h1>
-      </header>
+        </top>
+      
       <nav>
         <ul>
           <li>
@@ -38,6 +40,8 @@ const Nav = () => {
           </li>
         </ul>
       </nav>
+      <h4 class="texto-alineado">Obras clásicas y contemporáneas</h4>
+      </header>
       <section>
         <Outlet />
       </section>
