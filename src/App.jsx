@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Inicio from './routes/Inicio'
 import Descatados from './routes/Descatados'
 import Novedades from './routes/Novedades'
+import Categorias from './routes/Categorias'
 import Busquedas from './routes/Busquedas'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         
         <Route path='destacados' element={<Descatados />} />
         <Route path='novedades' element={<Novedades />} />
+        <Route path='categorias' element={<Categorias />} />
         <Route path='busquedas' element={<Busquedas />} />
       </Route>
     </Routes>

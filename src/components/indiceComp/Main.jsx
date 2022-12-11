@@ -1,5 +1,6 @@
 //import '../../style/inicio.css'
 import Turning from '../indiceComp/Turning'
+import cervantes from '../images/el-amante-liberal.jpeg'
 
 const Main = () => {
     return (
@@ -55,7 +56,7 @@ const Main = () => {
 
         <div class="right">
           <figure>
-            <img src="" alt="columna de libros" />
+            <img src={cervantes} alt="columna de libros" />
             <figcaption>
               <strong>
                 "El que lee mucho y anda mucho, ve mucho y sabe mucho"

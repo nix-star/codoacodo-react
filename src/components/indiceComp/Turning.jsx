@@ -1,5 +1,5 @@
 import React from "react";
-import '../../style/inicio.css'
+
 import '../../style/inicio/turning.css'
 
 const Pages = () => {
