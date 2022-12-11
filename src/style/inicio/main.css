@@ -7,17 +7,28 @@
     padding: 20px 3%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: justify;
-    border: 1px solid red;
+    justify-content: space-between;
+    text-align: justify
 }
 
-.ellipse {
-    float: left;
-    width: 150px;
-    height: 150px;
-    margin: 20px;
-    shape-outside: ellipse(20% 50%);
-    clip-path: ellipse(20% 50%);
-    background-image: lightblue;
-  }
+.text {
+width: 65%;
+
+}
+
+.right {
+    width: 28%;
+    height: 600px;
+    text-align: center;
+    padding-top: 30px
+}
+
+figcaption {
+    width: 100%;
+    padding-top: 20px;
+}
+
+figcaption>h5 {
+    color:#a80456;
+    margin-top: 50px 
+}
