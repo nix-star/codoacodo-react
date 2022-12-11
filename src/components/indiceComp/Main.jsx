@@ -1,10 +1,10 @@
-//import '../../style/inicio.css'
+import '../../style/inicio/main.css'
 import Turning from '../indiceComp/Turning'
 import cervantes from '../images/el-amante-liberal.jpeg'
 
 const Main = () => {
     return (
-        <main id="home">
+        <main className="main">
         
 < Turning />
      
@@ -67,17 +67,7 @@ const Main = () => {
         </div>
         </div>
 
-        <div class="iframe">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/CndQ-CxwnNY"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+       
 
       </main>
      

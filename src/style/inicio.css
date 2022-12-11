@@ -15,15 +15,7 @@ body {
   overflow-x: hidden;
 }
 
-/* IFRAME */
 
-.iframe {
-  clear: both;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 
 .texto-alineado,
 nav ul li a {
@@ -33,29 +25,9 @@ nav ul li a {
   flex-direction: column;
 }
 
-#home h2,
-#destacados h2,
-#novedades h2,
-#search h2 {
-  background-color: skyblue;
-  text-align: center;
-  margin: 0 0 1em;
 
-  font-size: 1.2em;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: normal;
-  height: 42px;
 
-  color: dodgerblue;
-}
 
-/*home*/
-#home div,
-#home p,
-#home figure {
-  margin: 0;
-  padding: 0;
-}
 
 #home {
   max-width: 1024px;
@@ -63,8 +35,7 @@ nav ul li a {
 }
 
 #home h2 {
-  /* background-color: transparent; */
-  /* background-color: lightgoldenrodyellow; */
+  
 
   background-color: rgb(229, 228, 228);
   width: 100%;
@@ -115,34 +86,7 @@ aside {
   font-size: 120%;
 }
 
-aside.sitios-externos {
-  clear: both;
-  position: relative;
-  /* margin-left-max: 64px; */
-  /* top: 0; */
-  font-size: 0.95em;
-  max-width: 200px;
-  border: 5px double black;
-  margin: auto;
-  margin-bottom: 1em;
-}
 
-aside.sitios-externos ul {
-  margin-top: 4px;
-  margin-bottom: 0;
-  padding-left: 1.5em;
-  list-style-type: square;
-}
-
-aside.sitios-externos a {
-  text-decoration: none;
-  color: blue;
-}
-
-aside.sitios-externos a:hover {
-  opacity: 0.6;
-  color: cornflowerblue;
-}
 
 /*destacados*/
 #destacados p {

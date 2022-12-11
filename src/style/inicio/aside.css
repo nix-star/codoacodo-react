@@ -1,0 +1,52 @@
+.iframeLinks-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+/* IFRAME */
+/*
+.iframe {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}*/
+
+/* ASIDE */
+
+aside.sites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1em;
+  max-width: 350px;
+  height: 250px;
+  border: 5px double rgb(69, 69, 69);
+  margin-bottom: 5px
+}
+
+strong {
+    font-size: 1.4em
+}
+
+aside.sites ul {
+  margin-top: 4px;
+  margin-bottom: 0;
+  padding-left: 1.5em;
+  list-style-type: square;
+}
+
+aside.sites a {
+  text-decoration: none;
+  color: rgb(69, 69, 69);
+}
+
+aside.sites a:hover {
+  opacity: 0.8;
+  color:#800040;
+}

@@ -1,0 +1,23 @@
+.main {
+    width: 100%;
+}
+
+.cervantes-part {
+    width: 100%;
+    padding: 20px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    border: 1px solid red;
+}
+
+.ellipse {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    shape-outside: ellipse(20% 50%);
+    clip-path: ellipse(20% 50%);
+    background-image: lightblue;
+  }
