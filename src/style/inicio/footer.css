@@ -10,19 +10,6 @@ footer {
 }
 
 .us {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border-left: 2px solid grey;
-    margin-top: 20px
-}
-
-.us-title {
-    height: 50px;
-}
-
-.us {
     width: 25%;
     height: 260px;
     padding: 2%;
@@ -30,6 +17,12 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-left: 2px solid grey;
+    margin-top: 20px
+}
+
+.us-title {
+    height: 50px;
 }
 
 .us-bottom {
@@ -40,6 +33,21 @@ footer {
 
 .no-border {
     border: none
+}
+
+
+
+.members {
+ width: 150%;
+ height: 50px;
+ background-color:  gray;
+ padding: 2%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-decoration: none;
+ color: #fff;
+ font-size: 1.4em;
 }
 
 .footer-team {

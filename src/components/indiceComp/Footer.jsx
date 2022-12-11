@@ -14,27 +14,31 @@ const Footer = ({ creator }) => {
           </p>
         </div>
 
+
         <div className="us">
           <h3 className="us-title">Know us</h3>
-          <a href={Members} className="us-bottom">
+          <div className="us-bottom">
+          <a href={Members} className="members">
             Members
           </a>
+          </div>
         </div>
+
 
         <div className="us">
             <h3 className="us-title">Follow us</h3>
           <div className="us-bottom">
             <a
               href="https://twitter.com"
-              classNameName="socialLink"
+              className="socialLink"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i classNameName="fas fa-brands fa-twitter"></i>
+              <i className="fas fa-brands fa-twitter"></i>
             </a>
             <a
               href="https://www.facebook.com/"
-              classNameName="socialLink"
+              className="socialLink"
               target="_blank"
               rel="noopener noreferrer"
             >
