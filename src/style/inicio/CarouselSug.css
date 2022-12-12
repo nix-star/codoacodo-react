@@ -1,7 +1,7 @@
 .carouselTitle {
   background-color: rgb(153, 150, 150);
   padding: 1%;
-  font-size: 1.6em
+  font-size: 1.6em;
 }
 
 .card {
@@ -15,10 +15,10 @@
   width: 50vw;
   max-width: 275px;
   height: 275px;
- 
+ border: 1px solid red
 }
  
-img {
+.cardImage {
     width: 70%;
     height: 230px;
     max-width: 150px;
@@ -29,28 +29,15 @@ img {
   .data {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    height: 180px;
+    width: 70%;
+    height: 160px;
   }
 
-    p {
+    .authorP, .dataP {
       font-weight: bold;
       text-transform: capitalize;
       text-align: center;
     }
-  
-
-    .types {
-      display: flex;
-      text-align: center;
-      gap: 25px;
-    }
-      span {
-        padding: 0.5rem;
-        background-color: white;
-        border-radius: 8px;
-        text-transform: capitalize;
-      }
     
 
     @media (max-width: 350px) {

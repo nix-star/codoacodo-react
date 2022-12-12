@@ -18,6 +18,10 @@ margin-left: 10%;
     text-align: center
 }
 
+.rightImg {
+    width: 50%;
+}
+
 figcaption {
     width: 100%;
     padding-top: 10px;

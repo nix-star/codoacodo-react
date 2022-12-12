@@ -60,7 +60,7 @@ const Main = () => {
 
         <div className="right">
           <figure>
-            <img src={cervantes} alt="columna de libros" />
+            <img className="rightImg" src={cervantes} alt="columna de libros" />
             <figcaption>
               <h5>
               <em>Miguel de Cervantes Saavedra</em>

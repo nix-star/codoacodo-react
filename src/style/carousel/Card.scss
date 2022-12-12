@@ -1,56 +1,56 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  padding: 2rem 0;
+  border-radius: 8px;
+  min-width: 150px;
+  width: 60vw;
+  max-width: 275px;
+  height: 275px;
+
+  .cardImg {
+    width: 70%;
+    height: 230px;
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .data {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: rgb(231, 231, 231);
-    padding: 2rem 0;
-    border-radius: 8px;
-    min-width: 150px;
-    width: 60vw;
-    max-width: 275px;
-    height: 275px;
-  
-    img {
-      width: 70%;
-      height: 230px;
-      max-width: 150px;
-      margin-bottom: 20px;
+    gap: 10px;
+
+    .cardP {
+      font-weight: bold;
+      text-transform: capitalize;
+      text-align: center;
     }
 
-    .data {
+    .types {
       display: flex;
-      flex-direction: column;
-      gap: 10px;
-  
-      p {
-        font-weight: bold;
+      text-align: center;
+      gap: 25px;
+
+      span {
+        padding: 0.5rem;
+        background-color: white;
+        border-radius: 8px;
         text-transform: capitalize;
-        text-align: center;
       }
-  
+    }
+
+    @media (max-width: 350px) {
       .types {
-        display: flex;
-        text-align: center;
-        gap: 25px;
-  
-        span {
-          padding: 0.5rem;
-          background-color: white;
-          border-radius: 8px;
-          text-transform: capitalize;
-        }
-      }
-  
-      @media (max-width:  350px) {
-        .types {
-          flex-direction: column;
-          gap: 10px;
-        }
+        flex-direction: column;
+        gap: 10px;
       }
     }
   }
-  
-  .card:hover {
-    transition-duration: 0.3s;
-    transform: scale(1.1);
-  }
+}
+
+.card:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+}

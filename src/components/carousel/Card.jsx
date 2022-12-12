@@ -4,12 +4,12 @@ const Card = ({ newbook }) => {
 
     return(
         <div className="card">
-            <img src={`https://covers.openlibrary.org/b/id/${newbook?.cover_i}-M.jpg`} alt={newbook?.title}/>
+            <img className="cardImg" src={`https://covers.openlibrary.org/b/id/${newbook?.cover_i}-M.jpg`} alt={newbook?.title}/>
             <div className="data">
-                <p>{newbook?.title}</p>
+                <p className="cardP">{newbook?.title}</p>
                 <div className="author">
-                    <p>{newbook?.author_name}</p>
-                    <p>{newbook?.first_publish_year}</p>        
+                    <p className="cardP">{newbook?.author_name}</p>
+                    <p className="cardP">{newbook?.first_publish_year}</p>        
                 </div>
             </div>
         </div>

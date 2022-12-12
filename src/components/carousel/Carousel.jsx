@@ -28,7 +28,7 @@ const Carosel = () => {
 
     return(
         <> 
-        <div className="carrousel"></div>
+        
             <h1 className="carouselTitle">Carousel</h1>
             <div className="container">
                 <div className="swiperContainer">
