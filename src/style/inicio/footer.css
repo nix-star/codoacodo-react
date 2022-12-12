@@ -28,14 +28,15 @@ footer {
 .us-bottom {
     height: 210px;
     padding: 0 2% 3%;
-    text-align: justify
+    text-align: justify;
+    cursor: pointer;
+    display: flex;
+
 }
 
 .no-border {
     border: none
 }
-
-
 
 .members {
  width: 150%;
@@ -47,7 +48,31 @@ footer {
  justify-content: center;
  text-decoration: none;
  color: #fff;
- font-size: 1.4em;
+ font-size: 1.4em
+}
+
+.us-bottom>.members {
+    margin: 50% -25%; 
+   
+}
+
+.members:hover {
+    color:#a91e63;
+    background-color:  rgba(156, 151, 151, 0.517);
+}
+
+.socialLink {
+    color: gray;
+    font-size: 1.4em;
+    padding: 10px
+}
+
+.socialLink:hover {
+    color:#a91e63;
+}
+
+.us-bottom>.socialLink {
+    margin-top: 25%;
 }
 
 .footer-team {

@@ -1,6 +1,6 @@
 import '../../style/inicio/main.css'
 import Turning from '../indiceComp/Turning'
-import cervantes from '../images/elAmante.jpeg'
+import cervantes from '../images/cervantes.jpg'
 
 const Main = () => {
     return (
@@ -10,6 +10,10 @@ const Main = () => {
      
 <div className="cervantes-part">
         <div className="text">
+          <p>“Finally, from so little sleeping and so much reading, his brain dried up and he went completely out of his mind.”</p>
+          <p>“There is no book so bad...that it does not have something good in it.”</p>
+          <p> "He who reads a lot and walks a lot, sees a lot and knows a lot"</p>
+         {/*
           <p>
             ¡Oh lamentables ruinas de la desdichada Nicosia, apenas enjutas de
             la sangre de vuestros valerosos y mal afortunados defensores! Si
@@ -51,16 +55,13 @@ const Main = () => {
           <p>
             Pues ¿por cuáles quieres que diga ­repitió Ricardo­, si no hay otras
             que a los ojos por aquí se ofrezcan?
-          </p>
+    </p> */}
         </div>
 
         <div className="right">
           <figure>
             <img src={cervantes} alt="columna de libros" />
             <figcaption>
-              <strong>
-                "El que lee mucho y anda mucho, ve mucho y sabe mucho"
-              </strong>
               <h5>
               <em>Miguel de Cervantes Saavedra</em>
               </h5>

@@ -7,7 +7,7 @@ const Nav = () => {
     <>
       <header>
         <top>
-          <h1>Librería Cervantes</h1>
+          <h1>Cervantes BookStore</h1>
         </top>
       
         <nav>
@@ -15,32 +15,32 @@ const Nav = () => {
             <li>
               <Link to={"/"} >
                 {" "}
-                Inicio
+                Init
               </Link>
             </li>
             <li>
               <Link to={"/destacados"} >
-                Destacados
+              Featured
               </Link>
             </li>
             <li>
               <Link to={"/novedades"} >
-                Novedades
+                News
               </Link>
             </li>
             <li>
               <Link to={"/categorias"} >
-                Categorías
+              Categories
               </Link>
             </li>
             <li>
               
-                <Link to={"/busquedas"}>Búsquedas</Link>
+                <Link to={"/busquedas"}>Searches</Link>
               
             </li>
           </ul>
         </nav>
-        <h4 class="texto-alineado">Obras clásicas y contemporáneas</h4>
+        <h4 className="texto-alineado">Classic and contemporary works</h4>
       </header>
       <section>
         <Outlet />

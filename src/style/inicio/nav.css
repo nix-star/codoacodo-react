@@ -25,16 +25,23 @@ h1 {
 
 nav ul {
     list-style-type: none;
-    background-color: cornflowerblue;
+    background-color: rgb(134, 168, 232);
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: .6%    
+    padding: .6%;
+    border: none    
 }
 
 nav ul li {
     border: 1px solid rgb(229, 228, 228);
-    margin: .1%
+    margin: .1%;
+    width: 8%;
+    text-align: center;   
+}
+
+nav ul li:hover {
+    background-color: rgb(229, 228, 228);
 }
 
 nav ul li a {
@@ -46,14 +53,8 @@ nav ul li a {
     font-size: 92%;
 }
 
-nav ul li a.actual {
-    color: wheat;
-    font-weight: bold;
-}
 
 nav ul li a:hover {
-    background-color: rgb(229, 228, 228);
-    color: cornflowerblue;
     font-weight: bold;
     color:#80004093;
 }

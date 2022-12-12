@@ -46,7 +46,7 @@ const Footer = ({ creator }) => {
             </a>
             <a
               href="https://linkedin.com"
-              classNameName="socialLink"
+              className="socialLink"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -54,7 +54,7 @@ const Footer = ({ creator }) => {
             </a>
             <a
               href="https://instagram.com"
-              classNameName="socialLink"
+              className="socialLink"
               target="_blank"
               rel="noopener noreferrer"
             >

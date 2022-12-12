@@ -27,8 +27,10 @@ strong {
 aside.sites ul {
   margin-top: 4px;
   margin-bottom: 0;
-  padding-left: 1.5em;
+  padding: 1.5em;
   list-style-type: square;
+  display: inline-block;
+  border: none
 }
 
 aside.sites a {

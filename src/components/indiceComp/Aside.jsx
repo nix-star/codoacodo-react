@@ -16,7 +16,7 @@ const Aside = () => {
           ></iframe>
         </div>
         <aside class="sites">
-          <strong>Enlaces externos</strong>
+          <strong>External links</strong>
           <ul>
             <li>
               <a
