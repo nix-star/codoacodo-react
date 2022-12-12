@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios, { Axios } from "axios";
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -6,12 +6,13 @@ import {Autoplay, Pagination} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css"
 import Card from "./Card";
-//import "../../style/carousel/Card.scss"
+/* import Books from "./Books" */
 
 
-const Carosel = () => {
 
-    const [newbooks, setNewBooks] = useState([])
+const Carousel = (/* { newbooks } */) => {
+
+ const [newbooks, setNewBooks] = useState([])
     
 
     const getNewBooks = async () => {
@@ -25,6 +26,8 @@ const Carosel = () => {
     useEffect(() => {
         getNewBooks()
     },[])
+
+    {/* <Books newbooks={newbooks}/> */}
 
     return(
         <> 
@@ -87,4 +90,4 @@ const Carosel = () => {
     );
 }
 
-export default Carosel;
+export default Carousel;
