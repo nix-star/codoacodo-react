@@ -9,7 +9,7 @@ const Main = () => {
 < Turning />
      
 <div className="cervantes-part">
-        <div class="left">
+        <div className="text">
           <p>
             ¡Oh lamentables ruinas de la desdichada Nicosia, apenas enjutas de
             la sangre de vuestros valerosos y mal afortunados defensores! Si
@@ -54,14 +54,16 @@ const Main = () => {
           </p>
         </div>
 
-        <div class="right">
+        <div className="right">
           <figure>
             <img src={cervantes} alt="columna de libros" />
             <figcaption>
               <strong>
                 "El que lee mucho y anda mucho, ve mucho y sabe mucho"
               </strong>
+              <h5>
               <em>Miguel de Cervantes Saavedra</em>
+              </h5>
             </figcaption>
           </figure>
         </div>
