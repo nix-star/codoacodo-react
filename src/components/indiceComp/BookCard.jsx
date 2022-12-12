@@ -1,18 +1,24 @@
 
-import '../../style/inicio/BooksCard.css'
+//import '../../style/inicio/BooksCard.css'
 
-export function BooksCard({ book }) {
-    const dbUrl = `https://image.tmdb.org/t/p/w300${book.poster_path}`;
-  
-    return (
-      <li className="liStyle">
-        <img className="bookImg" src={dbUrl} alt={book.title} />
-        <div className="cardInfo">
-          <p>{book.title}</p>
-          <p>{book.release_date}</p>
+//import "../../style/carousel/Card.scss";
+import '../../style/inicio/CarouselSug.css'
+
+const Card = ({ newbook }) => {
+
+    return(
+        <div className="card">
+            <img src={`https://covers.openlibrary.org/b/id/${newbook?.cover_i}-M.jpg`} alt={newbook?.title}/>
+            <div className="data">
+                <p>{newbook?.title}</p>
+                <div className="author">
+                    <p>{newbook?.author_name}</p>
+                    <p>{newbook?.first_publish_year}</p>        
+                </div>
+            </div>
         </div>
-        <button className="btn">Click to see backdrop</button>
-      </li>
     );
-  }
+};
+
+export default Card; 
   

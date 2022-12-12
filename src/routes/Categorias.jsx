@@ -1,11 +1,9 @@
 import React from 'react'
-//import 
+import Carousel from '../components/carousel/Carousel'
 
 const Categorias = () => {
   return (
-    <h1>
-      destacados
-    </h1>
+    <Carousel />
   )
 }
 

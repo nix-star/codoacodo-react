@@ -3,7 +3,7 @@ import React from "react";
 import Main from "../components/indiceComp/Main";
 import Aside from "../components/indiceComp/Aside";
 import IconsBar from "../components/indiceComp/IconsBar";
-import { Suggestions } from "../components/indiceComp/Suggestions";
+import Suggestions from '../components/indiceComp/Suggestions'
 import Footer from "../components/indiceComp/Footer";
 import "../style/inicio.css";
 
@@ -15,7 +15,7 @@ export default function inicio() {
       <Aside />
       <IconsBar />
       <Suggestions />
-      <Footer creator="©2022 -  Creado por GRUPO 8 con ❤️" />
+      <Footer creator="©2022 -  Created by GROUP 8 with ❤️" />
     </>
   );
 }
