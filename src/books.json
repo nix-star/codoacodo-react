@@ -1,0 +1,41 @@
+[
+    {
+      "adult": true,
+      "poster_path": "https://images-us.bookshop.org/ingram/9781556593185.jpg?height=500&v=v2",
+      "id": 527774,
+      "original_language": "English",
+      "title": "Horses Where the Answers Should Have Been: New and Selected Poems",
+      "overview": "Poems generate the requisite heat with the poet's precise, original and frequently brilliant use of language. . . . A major voice in contemporary poetry.",
+      "Publisher": "Copper Canyon Press",
+      "type": "Paperback",
+      "pages": 200,
+      "publish_date": "May 01, 2010",
+      "author": "Chase Twichell"
+    },
+    {
+        "adult": true,
+        "poster_path": "https://images-us.bookshop.org/ingram/9781558615328.jpg?height=500&v=v2",
+        "id": 793723,
+        "original_language": "English",
+        "title": "A Short Walk",
+        "overview": "Short Walk is a sweeping epic novel, which captures the movement of black Americans from the rural south to the urban north.Cora James, born to a black woman who has had a love affair with a white man, grows up poor in South Carolina, marries an abusive--albeit, wealthy--preacher, and escapes from him by going north to Harlem. There she earns money dealing cards and performing in a number of traveling vaudeville shows. She survives the Great Depression, and experiences life as a wife, mother, lover, actress, and independent businesswoman. Torn between befriending Filipino and white neighbors, and the view of the Black Nationalist Marcus Garvey movement, Cora survives divisive politics and learns that since Life is just a short walk from the cradle to the grave... it sure behooves us to be kind to one another along the way.",
+        "Publisher": "Feminist Press",
+        "type": "Paperback",
+        "pages": 358,
+        "publish_date": "December 01, 2006",
+        "author": "Alice Childress"
+      },
+      {
+        "adult": true,
+        "poster_path": "https://images-us.bookshop.org/ingram/9781938584176.jpg?height=500&v=v2",
+        "id": 791373,
+        "original_language": "English",
+        "title": "Thief in the Interior",
+        "overview": "Phillip B. Williams investigates the dangers of desire, balancing narratives of addiction, murders, and hate crimes with passionate, uncompromising depth. Formal poems entrenched in urban landscapes crack open dialogues of racism and homophobia rampant in our culture. Multitudinous voices explore one's ability to harm and be harmed, which uniquely juxtaposes the capacity to revel in both experiences.",
+        "Publisher": "Alice James Books",
+        "type": "Paperback",
+        "pages": 100,
+        "publish_date": "January 12, 2016",
+        "author": "Phillip B. Williams"
+      }
+    ]

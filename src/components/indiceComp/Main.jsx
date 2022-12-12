@@ -1,6 +1,6 @@
 import '../../style/inicio/main.css'
 import Turning from '../indiceComp/Turning'
-import cervantes from '../images/el-amante-liberal.jpeg'
+import cervantes from '../images/elAmante.jpeg'
 
 const Main = () => {
     return (

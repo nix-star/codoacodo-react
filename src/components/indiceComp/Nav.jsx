@@ -9,35 +9,34 @@ const Nav = () => {
         <top>
           <h1>Librería Cervantes</h1>
         </top>
-
+      
         <nav>
           <ul>
             <li>
-              <Link to={"/"} target="_blank">
+              <Link to={"/"} >
                 {" "}
                 Inicio
               </Link>
             </li>
             <li>
-              <Link to={"/destacados"} target="_blank">
+              <Link to={"/destacados"} >
                 Destacados
               </Link>
             </li>
             <li>
-              <Link to={"/novedades"} target="_blank">
+              <Link to={"/novedades"} >
                 Novedades
               </Link>
             </li>
             <li>
-              <Link to={"/categorias"} target="_blank">
+              <Link to={"/categorias"} >
                 Categorías
               </Link>
             </li>
             <li>
-              <a href="busqueda.jsx">
-                {" "}
+              
                 <Link to={"/busquedas"}>Búsquedas</Link>
-              </a>
+              
             </li>
           </ul>
         </nav>
