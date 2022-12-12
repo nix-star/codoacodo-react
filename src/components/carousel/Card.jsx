@@ -1,4 +1,4 @@
-import "../../style/carosel/Card.scss";
+import "../../style/carousel/Card.scss";
 
 const Card = ({ newbook }) => {
 
