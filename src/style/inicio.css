@@ -16,7 +16,6 @@ body {
   overflow-x: hidden;
 }
 
-<<<<<<< HEAD
 /* PARA TODOS EN GENERAL */
 
 /* titulos:
@@ -31,13 +30,6 @@ body {
 /* bordes:
 rgb(67 88 97);
 */
-=======
-.tituloPrincipal {
-  background-color: rgb(153, 150, 150);
-  padding: 1%;
-  font-size: 1.6em;
-}
->>>>>>> 08afee52a7fa6f371f587e51813a3a477a5534f1
 
 /* Ver si alguien hace buscador */
 /*search*/

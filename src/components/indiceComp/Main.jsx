@@ -9,6 +9,7 @@ const Main = () => {
 < Turning />
      
 <div className="cervantes-part">
+  {/*
         <div className="text">
 
           <p>Shop and browse millions of bestselling books, find recommended reads from our booksellers, access your B&amp;N Membership Card, place your Caf&eacute; order and&nbsp;more!</p>
@@ -57,7 +58,7 @@ const Main = () => {
           <p>
             Pues ¿por cuáles quieres que diga ­repitió Ricardo­, si no hay otras
             que a los ojos por aquí se ofrezcan?
-    </p> */}
+    </p> 
         </div>
 
         <div className="right">
@@ -70,6 +71,7 @@ const Main = () => {
             </figcaption>
           </figure>
         </div>
+        */}
         </div>
 
        

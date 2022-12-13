@@ -1,39 +1,129 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* NAV STYLES */
+
+.upBar {
+    padding: 15px 2% 10px 0
+}
+
+.fa-solid {
+    padding-right: 3%;
+    color: rgb(60, 61, 62);
+}
+
+.upBar,
+.upBarRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upBarRight {
+  width:12%;
+}
+
+.account,
+.wishlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #55575a;
+}
+
+.account > h3,
+.wishlist > h3 {
+  font-size: 0.5em;
+  padding-top: 8px
+}
+
+.account {
+    border-right: 1px solid gray;
+    padding-right: 7%;
+    width: 55%;
+}
+
+.wishlist {
+    width: 40%;
+}
+
+.upBar ul {
+  width: 60%;
+  list-style-type: none;
+  background-color: rgb(255 255 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.upBar ul li {
+  margin: 0.1%;
+  width: 38%;
+  text-align: center;
+  border-right: 1px solid rgb(172 158 111);
+  
+}
+
+.upBar ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(60, 61, 62);
+  height: 42px;
+  width: 92px;
+  font-size: 0.5em;
 }
 
 top {
   background-color: rgb(255 255 255);
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1%;
+  margin: 20px 0;
 }
 
 h1 {
-  color: rgb(60, 61, 62);
-  font-weight: bold;
+  color: rgb(85, 87, 90);
   font-family: "Open Sans", sans-serif;
-  margin: 0;
-  padding: 1.4em;
-  text-align: center;
-  opacity: 0.7;
 }
 
 h1 > spam {
-  color: rgb(172, 158, 111);
+  color: rgb(187, 161, 69);
 }
 
 .search {
-    width: 50%;
-    height: 40px;
-    border: 1px solid #3e5962;
+  width: 50%;
+  height: 40px;
+  border: 1px solid #3e5962;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav ul {
-    width: 100%;
+.btn {
+  border-radius: 0 !important;
+}
+
+.magnifingGlass {
+  background-color: rgb(67 88 97);
+  height: 40px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.fa-solid {
+    color: rgb(249 239 222);
+}
+
+.shopIcon {
+  font-size: 2em;
+  color: rgb(67 88 97);
+}
+
+nav > ul {
+  width: 100%;
   list-style-type: none;
   background-color: rgb(255 255 255);
   display: flex;
@@ -41,32 +131,38 @@ nav ul {
   justify-content: space-around;
   margin: auto;
   padding: 0.6%;
-  border: 1px solid red;
 }
 
-nav ul li {
-  border: 1px solid rgb(229, 228, 228);
+nav > ul > li {
   margin: 0.1%;
-  width: 8%;
+  width: 15%;
   text-align: center;
+  border-right: 3px double rgb(172 158 111);
+  margin-bottom: 20px;
 }
 
+.lastNoBorder {
+  border: none;
+}
+
+/*
 nav ul li:hover {
-  background-color: rgb(229, 228, 228);
+  border-bottom: 2px solid rgb(172 158 111);
+  padding-bottom: 20px
 }
+*/
 
-nav ul li a {
+nav > ul > li > a {
   text-decoration: none;
   text-align: center;
-  color: rgb(229, 228, 228);
+  color: rgb(60, 61, 62);
   height: 42px;
   width: 92px;
-  font-size: 92%;
+  font-size: 1em;
 }
 
 nav ul li a:hover {
-  font-weight: bold;
-  color: #80004093;
+  color: rgb(67 88 97);
 }
 
 .christmasBanner {
@@ -96,12 +192,11 @@ nav ul li a:hover {
   color: rgb(230, 175, 186);
 }
 
-h4 {
+.subtitle {
   background-color: rgb(67 88 97);
   color: rgb(245 243 243);
-  font-size: 0.1em;
   font-family: "Open Sans", sans-serif;
-  margin-top: 20px;
-  padding: 0.4em;
+  padding: 0.8em;
   text-align: center;
 }
+
