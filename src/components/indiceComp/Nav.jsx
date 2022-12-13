@@ -15,7 +15,7 @@ const Nav = () => {
             <li>
               <Link to={"/"} >
                 {" "}
-                Init
+                Home
               </Link>
             </li>
             <li>
