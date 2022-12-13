@@ -5,17 +5,17 @@ import { useState } from "react";
 import {Autoplay, Pagination} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css"
-import Card from "./Card";
+import CardWoman from "./CardWoman";
 //import "../../style/carousel/Card.scss"
 
 
-const Carosel = () => {
+const CarouselWoman = () => {
 
     const [newbooks, setNewBooks] = useState([])
     
 
     const getNewBooks = async () => {
-        const url = 'https://openlibrary.org/trending/daily.json?limit=5&offset=10'
+        const url = 'https://openlibrary.org/subjects/woman.json?limit=5&offset=10'
         return await axios
         .get(url)
         .then(({data}) => setNewBooks(data.works))
@@ -29,7 +29,7 @@ const Carosel = () => {
     return(
         <> 
         
-            <h1 className="carouselTitle">Trending</h1>
+            <h1 className="carouselTitle">Feminist</h1>
             <div className="container">
                 <div className="swiperContainer">
                     <Swiper 
@@ -73,8 +73,9 @@ const Carosel = () => {
                         >
                             {newbooks?.map((newbook) => (
                                 <div>
+                                    {console.log(newbook)}
                                 <SwiperSlide>
-                                    <Card newbook={newbook}/>
+                                    <CardWoman newbook={newbook}/>
                                 </SwiperSlide>  
                                 </div>
                             ))}
@@ -87,4 +88,4 @@ const Carosel = () => {
     );
 }
 
-export default Carosel;
+export default CarouselWoman;
