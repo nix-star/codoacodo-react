@@ -1,10 +1,10 @@
 import React from 'react'
+import Search from '../components/search/Search'
 
 const Busquedas = () => {
+
   return (
-    <h1>
-      busquedas
-    </h1>
+    <Search />
   )
 }
 
