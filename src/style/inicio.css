@@ -16,6 +16,11 @@ body {
   overflow-x: hidden;
 }
 
+.tituloPrincipal {
+  background-color: rgb(153, 150, 150);
+  padding: 1%;
+  font-size: 1.6em;
+}
 
 /* Ver si alguien hace buscador */
 /*search*/
