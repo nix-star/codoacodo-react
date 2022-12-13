@@ -2,7 +2,7 @@ import React from 'react'
 
 const Novedades = () => {
   return (
-    <h1>
+    <h1 className='tituloPrincipal'>
       novedades
     </h1>
   )

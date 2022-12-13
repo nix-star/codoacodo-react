@@ -4,7 +4,7 @@ import LibrosGrid from '../components/LibrosGrid/LibrosGrid'
 const Descatados = () => {
   return (
     <>
-      <h1>
+      <h1 className='tituloPrincipal'>
         Destacados
       </h1>
       <main>

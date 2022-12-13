@@ -1,9 +1,10 @@
 import "../../style/search/search.css"
+import "../../style/inicio.css"
 
 const Search = () => {
     return (
         <>
-            <h1>Buscador</h1>
+            <h1 className="tituloPrincipal">Buscador</h1>
             <div className="containerSearch">
                 <form className="formSearch">
                     <input
