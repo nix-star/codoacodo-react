@@ -16,16 +16,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border-left: 2px solid grey;
+    border-left: 2px solid rgb(67 88 97);
     margin-top: 20px;
 }
 
 .us-title {
     height: 50px;   
+    color: rgb(85, 87, 90);
 }
 
 .us-title>spam {
-    color:#a91e63;
+    color: rgb(187, 161, 69);
 }
 
 .us-bottom {
@@ -46,12 +47,13 @@
 .about {
     font-size: 1em;
     text-align: left;
+    color: rgb(67 88 97);
 }
 
 .members {
  width: 50%;
  height: 50px;
- background-color:  gray;
+ background-color:  rgb(67 88 97);
  padding: 2%;
  display: flex;
  align-items: center;
@@ -67,24 +69,23 @@
 }
 
 .members:hover {
-    color:#a91e63;
-    background-color:  rgba(156, 151, 151, 0.517);
+    color: rgb(187, 161, 69);
 }
 
 .socialLink {
-    color: gray;
+    color: rgb(60, 61, 62);
     font-size: 1.4em;
     padding: 10px
 }
 
 .socialLink:hover {
-    color:#a91e63;
+    color: rgb(187, 161, 69);
 }
 
 
 
 .footer-team {
-    background-color: rgb(160, 157, 155);
+    background-color: rgb(67 88 97);
     color: #fff;
     text-align: center;
     font-size: 0.9em;

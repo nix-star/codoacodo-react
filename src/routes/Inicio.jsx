@@ -12,10 +12,10 @@ export default function inicio() {
     <>
       
       <Main />
-      <Aside />
-      <IconsBar />
       <Suggestions />
-      <Footer creator="©2022 -  Created by GROUP 8 with ❤️" />
+      <IconsBar />
+      <Aside />
+      <Footer creator="©2022 -  Created by GROUP 8 with  ❤️" />
     </>
   );
 }

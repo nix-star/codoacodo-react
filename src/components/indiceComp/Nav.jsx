@@ -57,17 +57,27 @@ const Nav = () => {
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
                   <a class="dropdown-item" href="#">
-                    Action
+                    Feminist
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Another action
+                    Infantile
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Something else here
+                    Suspense
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Fantasy
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Mystery
                   </a>
                 </li>
               </ul>
