@@ -18,6 +18,7 @@ const Suggestions = () => {
 
     const getNewBooks = async () => {
         const url = 'https://openlibrary.org/trending/daily.json?limit=5&offset=10'
+        //const url = 'https://openlibrary.org/subjects/infancy.json?limit=5&offset=10'
         return await axios
         .get(url)
         .then(({data}) => setNewBooks(data.works))

@@ -16,7 +16,7 @@ const Carosel = () => {
 
     const getNewBooks = async () => {
         const url = 'https://openlibrary.org/trending/daily.json?limit=5&offset=10'
-        return await axios
+        return await axios 
         .get(url)
         .then(({data}) => setNewBooks(data.works))
         .catch((error) => console.error(error));
@@ -42,7 +42,7 @@ const Carosel = () => {
                             el: ".pagination",
                             clickable: true,
                         }}
-                        slidesPerView = {4}
+                        slidesPerView = {3}
                         breakpoints={{
                             "@0.00":{
                                 slidesPerView: 1,
@@ -63,11 +63,7 @@ const Carosel = () => {
                             "@1.50":{
                                 slidesPerView: 3,
                                 spaceBetween:25,
-                            },
-                            "@1.75":{
-                                slidesPerView: 4,
-                                spaceBetween:25,
-                            },
+                            }
 
                         }}
                         >

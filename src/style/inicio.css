@@ -5,17 +5,31 @@
 }
 
 html {
-  background-image: url(../assets/img/backgr.jpeg);
-  margin: 0 10%;
+  background-color: rgba(153, 150, 150, 0.246);
+  
   
 }
 
 body {
-  max-width: 1152px;
-  background-color: whitesmoke;
+  
+  background-color: rgb(255 255 255);
   overflow-x: hidden;
 }
 
+/* PARA TODOS EN GENERAL */
+
+/* titulos:
+    background-color: rgb(67 88 97); (petroleo)
+    color: rgb(245 243 243);         (blanco)
+*/
+
+/* tipografia color crema:
+    color: rgb(249 239 222);
+*/
+
+/* bordes:
+rgb(67 88 97);
+*/
 
 /* Ver si alguien hace buscador */
 /*search*/

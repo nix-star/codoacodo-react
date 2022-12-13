@@ -10,6 +10,8 @@ const Main = () => {
      
 <div className="cervantes-part">
         <div className="text">
+
+          <p>Shop and browse millions of bestselling books, find recommended reads from our booksellers, access your B&amp;N Membership Card, place your Caf&eacute; order and&nbsp;more!</p>
           <p>“Finally, from so little sleeping and so much reading, his brain dried up and he went completely out of his mind.”</p>
           <p>“There is no book so bad...that it does not have something good in it.”</p>
           <p> "He who reads a lot and walks a lot, sees a lot and knows a lot"</p>

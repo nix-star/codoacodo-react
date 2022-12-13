@@ -7,7 +7,15 @@ const Nav = () => {
     <>
       <header>
         <top>
-          <h1>Cervantes BookStore</h1>
+          <h1>BOOKS<spam>&</spam>MORE</h1>
+          <div className="search">
+            (desplegable)
+            <div className="searchSpace"></div>
+            (lupa)
+          </div>
+          <div className="shop">
+<img src="" alt="" />
+          </div>
         </top>
       
         <nav>
@@ -40,7 +48,17 @@ const Nav = () => {
             </li>
           </ul>
         </nav>
-        <h4 className="texto-alineado">Classic and contemporary works</h4>
+        <div className="christmasBanner">
+          <div className="giftInfo">
+          <h2>SHIP IT AND GIFT IT IN TIME</h2>
+          <p>Date</p>
+          <Link to={"/gift"} >
+          FIND A GIFT
+              </Link>
+         
+          </div>
+        </div>
+        <h4 className="texto-alineado">Books and more</h4>
       </header>
       <section>
         <Outlet />
