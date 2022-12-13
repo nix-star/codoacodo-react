@@ -10,7 +10,13 @@ const Nav = () => {
           <h1>BOOKS<spam>&</spam>MORE</h1>
           <div className="search">
             (desplegable)
-            <div className="searchSpace"></div>
+            <div className="searchSpace">
+            <li>
+              
+              <Link to={"/busquedas"}>About Us</Link>
+            
+          </li>
+            </div>
             (lupa)
           </div>
           <div className="shop">
@@ -43,7 +49,7 @@ const Nav = () => {
             </li>
             <li>
               
-                <Link to={"/busquedas"}>Searches</Link>
+                <Link to={"/aboutUs"}>About Us</Link>
               
             </li>
           </ul>
