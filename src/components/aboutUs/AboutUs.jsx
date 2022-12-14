@@ -9,12 +9,11 @@ import "../../style/carousel/Card.scss";
 const AboutUs = () => {
   return (
     <>
-      <h1 className="tituloPrincipal">About Us</h1>
       <div className="container">
         <div className="text">
           Somos un grupo de estudiantes de React en Codo a Codo.
           <br />
-          Este sitio es nuestro TP, en el cual implementamos los conocimientos
+          Este sitio es nuestro Trabajo Práctico, en el cual implementamos los conocimientos
           adquiridos durante la cursada
         </div>
         <div className="containerGallery">
