@@ -9,7 +9,7 @@ const Nav = () => {
         <div className="upBar">
           <ul>
             <li>
-              <i className="fa-solid fa-location-dot"></i>
+              <i className="fa-solid fa-location-dot locationIcon"></i>
               <Link to={"/"}>STORES & EVENTS</Link>
             </li>
             <li>
@@ -56,34 +56,34 @@ const Nav = () => {
               </button>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Feminist
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Infantile
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Suspense
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Fantasy
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/">
                     Mystery
                   </a>
                 </li>
               </ul>
             </div>
             <div className="searchSpace">
-              <Link to={"/busquedas"}>Search</Link>
+              <Link to={"/busquedas"} className="searchSpaceText">Search by Title, Author or Category</Link>
             </div>
             <div className="magnifingGlass">
               <i class="fa-solid fa-magnifying-glass"></i>

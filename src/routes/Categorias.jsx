@@ -1,18 +1,13 @@
 import React from 'react'
-import CarouselWoman from '../components/carousel/CarouselWoman'
-import Infantile from '../components/carousel/Infantile'
-import Suspense from '../components/carousel/Suspense'
-import Fantasy from '../components/carousel/Fantasy'
-import Mystery from '../components/carousel/Mystery'
+import BooksContainer from '../components/carousel/BooksContainer'
+
 
 const Categorias = () => {
   return (
     <>
-    <CarouselWoman />
-    <Infantile />
-    <Suspense />
-    <Fantasy />
-    <Mystery />
+    <BooksContainer entity= 'woman' title ='Woman'/>
+    <BooksContainer entity= 'science' title ='Science'/>
+    <BooksContainer entity= 'fantasy' title ='Fantasy'/>
     </>
     
     

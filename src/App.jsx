@@ -8,6 +8,7 @@ import Descatados from './routes/Descatados'
 import Novedades from './routes/Novedades'
 import Categorias from './routes/Categorias'
 import Busquedas from './routes/Busquedas'
+import BooksContainer from './components/carousel/BooksContainer'
 import CarouselWoman from './components/carousel/CarouselWoman'
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
         <Route path='novedades' element={<Novedades />} />
         <Route path='categorias' element={<Categorias />} />
         <Route path='busquedas' element={<Busquedas />} />
-        <Route path='carousel' element={<CarouselWoman/>} />
+        <Route path='carousel/:entity' element={<BooksContainer/>} />
       </Route>
     </Routes>
   </BrowserRouter>

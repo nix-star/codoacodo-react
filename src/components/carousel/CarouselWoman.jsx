@@ -9,9 +9,10 @@ import CardWoman from "./CardWoman";
 //import "../../style/carousel/Card.scss"
 
 
-const CarouselWoman = () => {
+const CarouselWoman = ( {newbooks, title} ) => {
 
-    const [newbooks, setNewBooks] = useState([])
+
+/*     const [newbooks, setNewBooks] = useState([])
     
 
     const getNewBooks = async () => {
@@ -25,11 +26,11 @@ const CarouselWoman = () => {
     useEffect(() => {
         getNewBooks()
     },[])
-
+ */
     return(
         <> 
-        
-            <h1 className="carouselTitle">Feminist</h1>
+            <div>{console.log(`esto es titulo: `, title)}</div>
+            <h1 className="carouselTitle">{title}</h1>
             <div className="container">
                 <div className="swiperContainer">
                     <Swiper 
