@@ -1,3 +1,26 @@
 .members-container {
-    
+    width: 90%; 
+    margin: 20px auto 150px;
+    display: flex;
+    align-items: center;
+}
+
+.member {
+    border: 2px solid rgb(67 88 97);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    margin: .5%;
+    color: rgb(67 88 97);
+}
+
+.member>p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em
+}
+
+.member>p:hover {
+    color: rgb(187, 161, 69);
 }
