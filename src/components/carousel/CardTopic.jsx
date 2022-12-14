@@ -1,7 +1,6 @@
 import "../../style/carousel/Card.scss";
 
-const CardWoman= ({ newbook }) => {
-
+const CardTopic= ({ newbook }) => {
     return(
         <div className="card">
             <img className="cardImg" src={`https://covers.openlibrary.org/b/id/${newbook?.cover_id}-M.jpg`} alt={newbook?.title}/>
@@ -16,4 +15,4 @@ const CardWoman= ({ newbook }) => {
     );
 };
 
-export default CardWoman; 
+export default CardTopic; 

@@ -1,49 +1,30 @@
-import axios from "axios";
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
 import {Autoplay, Pagination} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css"
-import CardWoman from "./CardWoman";
-//import "../../style/carousel/Card.scss"
+import CardTopic from "./CardTopic";
+import "../../style/carousel/Card.scss"
+import "../../style/inicio.css"
 
 
-const CarouselWoman = ( {newbooks, title} ) => {
+const CarouselTopics = ( {newbooks, title} ) => {
 
-
-/*     const [newbooks, setNewBooks] = useState([])
-    
-
-    const getNewBooks = async () => {
-        const url = 'https://openlibrary.org/subjects/woman.json?limit=5&offset=10'
-        return await axios
-        .get(url)
-        .then(({data}) => setNewBooks(data.works))
-        .catch((error) => console.error(error));
-    }
-
-    useEffect(() => {
-        getNewBooks()
-    },[])
- */
     return(
         <> 
-            <div>{console.log(`esto es titulo: `, title)}</div>
             <h1 className="carouselTitle">{title}</h1>
             <div className="container">
                 <div className="swiperContainer">
                     <Swiper 
                         modules = {[Pagination, Autoplay]}
                         autoplay = {{
-                            delay:3000,
+                            delay:5000,
                             disableOnInteraction: false,
                         }}
                         pagination = {{
                             el: ".pagination",
                             clickable: true,
                         }}
-                        slidesPerView = {4}
+                        slidesPerView = {3}
                         breakpoints={{
                             "@0.00":{
                                 slidesPerView: 1,
@@ -74,9 +55,10 @@ const CarouselWoman = ( {newbooks, title} ) => {
                         >
                             {newbooks?.map((newbook) => (
                                 <div>
-                                    {console.log(newbook)}
                                 <SwiperSlide>
-                                    <CardWoman newbook={newbook}/>
+                                    <CardTopic 
+                                    newbook = {newbook}
+                                    />
                                 </SwiperSlide>  
                                 </div>
                             ))}
@@ -89,4 +71,4 @@ const CarouselWoman = ( {newbooks, title} ) => {
     );
 }
 
-export default CarouselWoman;
+export default CarouselTopics;

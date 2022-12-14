@@ -9,7 +9,7 @@ import Novedades from './routes/Novedades'
 import Categorias from './routes/Categorias'
 import Busquedas from './routes/Busquedas'
 import BooksContainer from './components/carousel/BooksContainer'
-import CarouselWoman from './components/carousel/CarouselWoman'
+import CarouselTopic from './components/carousel/CarouselTopic'
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
         <Route path='novedades' element={<Novedades />} />
         <Route path='categorias' element={<Categorias />} />
         <Route path='busquedas' element={<Busquedas />} />
-        <Route path='carousel/:entity' element={<BooksContainer/>} />
+        <Route path='carousel/:entity' element={<BooksContainer/>} /> {/* useParams() */}
       </Route>
     </Routes>
   </BrowserRouter>
