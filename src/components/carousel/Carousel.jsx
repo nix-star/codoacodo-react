@@ -9,9 +9,9 @@ import Card from "./Card";
 //import "../../style/carousel/Card.scss"
 
 
-const Carosel = () => {
+const CarouselTranding = ({newbooks, title}) => {
 
-    const [newbooks, setNewBooks] = useState([])
+/*     const [newbooks, setNewBooks] = useState([])
     
 
     const getNewBooks = async () => {
@@ -24,12 +24,12 @@ const Carosel = () => {
 
     useEffect(() => {
         getNewBooks()
-    },[])
+    },[]) */
 
     return(
         <> 
         
-            <h1 className="carouselTitle">Trending</h1>
+            <h1 className="carouselTitle">{title}</h1>
             <div className="container">
                 <div className="swiperContainer">
                     <Swiper 
@@ -83,4 +83,4 @@ const Carosel = () => {
     );
 }
 
-export default Carosel;
+export default CarouselTranding;

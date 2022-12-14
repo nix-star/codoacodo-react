@@ -1,0 +1,9 @@
+.librosCard{
+    list-style: none;
+    font: size 1.5rem;
+}
+
+.libroImage{
+    border-radius: 10px;
+    background-color: azure;
+}
