@@ -1,12 +1,72 @@
+/* ASIDE STYLE */
+
+.asideContainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.asideSubContainer {
+  width: 45%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin: .5%;
+  background: rgb(239, 203, 176);
+  background: linear-gradient(
+    0deg,
+    rgba(215, 222, 211, 1) 0%,
+    rgba(249, 226, 208, 1) 100%
+  );
+  border: 1.4px solid rgb(67 88 97);
+}
+
+/*
 .iframeLinks-container {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 40px 0;
+  margin: auto;
+}
+*/
+
+/* logo */
+
+.logo {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(34 40 44);
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0 auto 30px;
 }
 
-/* ASIDE */
+.logo > p {
+  color: rgb(187, 161, 69);
+  font-family: "Playfair Display", serif;
+  font-size: 8em; 
+}
+
+.logoText {
+  color: rgb(227, 225, 217);
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  z-index: 10; 
+}
+
+.film {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: rgb(69, 69, 69);
+  margin: 80px 0 20px
+}
 
 aside.sites {
   display: flex;
@@ -14,14 +74,15 @@ aside.sites {
   align-items: center;
   justify-content: space-around;
   font-size: 1em;
-  max-width: 350px;
+  color: rgb(67 88 97);
+  max-width: 90%;
   height: 250px;
-  border: 5px double rgb(69, 69, 69);
-  margin-bottom: 5px
+  border: 5px double rgb(67 88 97);
+  margin-bottom: 5px;
 }
 
 strong {
-    font-size: 1.4em
+  font-size: 1.4em;
 }
 
 aside.sites ul {
@@ -30,7 +91,7 @@ aside.sites ul {
   padding: 1.5em;
   list-style-type: square;
   display: inline-block;
-  border: none
+  border: none;
 }
 
 aside.sites a {
@@ -40,5 +101,19 @@ aside.sites a {
 
 aside.sites a:hover {
   opacity: 0.8;
-  color:#800040;
+  color: rgb(187, 161, 69);
 }
+
+/* 
+color: rgb(187, 161, 69);
+  font-family: 'Playfair Display', serif;
+  */
+
+  .logo2 {
+    background-color: rgb(105 118 158);
+  }
+
+  .logo2 > p {
+    color:  rgb(165, 171, 192);
+  
+  }
