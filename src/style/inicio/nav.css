@@ -4,7 +4,7 @@
     padding: 15px 2% 10px 0
 }
 
-.fa-solid {
+.locationIcon {
     padding-right: 3%;
     color: rgb(60, 61, 62);
 }
@@ -66,9 +66,7 @@
   text-decoration: none;
   text-align: center;
   color: rgb(60, 61, 62);
-  height: 42px;
-  width: 92px;
-  font-size: 0.5em;
+  font-size: 0.7em;
 }
 
 top {
@@ -97,6 +95,17 @@ h1 > spam {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.searchSpace {
+  width: 100%;
+  padding-left: 2%;
+}
+
+.searchSpaceText {
+  color: gray;
+  text-decoration: none;
+  text-align: left
 }
 
 .btn {
@@ -159,6 +168,7 @@ nav > ul > li > a {
   height: 42px;
   width: 92px;
   font-size: 1em;
+  font-family: 'Playfair Display', serif;
 }
 
 nav ul li a:hover {
