@@ -1,53 +1,58 @@
 .carouselTitle {
-  background-color: rgb(153, 150, 150);
-  padding: 1%;
+  font-family: 'Playfair Display', serif;
+  padding: 1% 3%;
   font-size: 1.6em;
 }
 
+/*
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(231, 231, 231);
   padding: 2rem 0 1rem;
-  border-radius: 8px;
   min-width: 100px;
   width: 50vw;
   max-width: 275px;
   height: 275px;
- border: 1px solid red
 }
- 
+*/
+
 .cardImage {
-    width: 70%;
-    height: 230px;
-    max-width: 150px;
-    margin-bottom: 20px;
-  }
- 
+  width: 70%;
+  height: 230px;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
 
-  .data {
-    display: flex;
+.data {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 160px;
+}
+
+.authorP,
+.dataP {
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* CAROUSEL HOME */
+
+.carousel {
+  border-top: 5px solid rgb(231, 231, 231);
+}
+
+
+
+@media (max-width: 350px) {
+  .types {
     flex-direction: column;
-    width: 70%;
-    height: 160px;
+    gap: 10px;
   }
-
-    .authorP, .dataP {
-      font-weight: bold;
-      text-transform: capitalize;
-      text-align: center;
-    }
-    
-
-    @media (max-width: 350px) {
-      .types {
-        flex-direction: column;
-        gap: 10px;
-      }
-    }
-  
-
+}
 
 .card:hover {
   transition-duration: 0.3s;

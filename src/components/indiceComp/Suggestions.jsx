@@ -31,8 +31,8 @@ const Suggestions = () => {
 
     return(
         <> 
-        <div className="carrousel"></div>
-            <h1 className="carouselTitle">Suggestions</h1>
+       
+            <h1 className="carouselTitle">Fantastic B&M Exclusives</h1>
             <div className="container">
                 <div className="swiperContainer">
                     <Swiper 
