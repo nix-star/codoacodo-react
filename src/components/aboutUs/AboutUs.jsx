@@ -1,28 +1,38 @@
-import "../../style/aboutUs/aboutUs.css"
-import "../../style/inicio.css"
+import "../../style/aboutUs/aboutUs.css";
+import "../../style/inicio.css";
+import codoAcodo from "./img/codoAcodo.png";
+import bsAsCiudad from "./img/bsAsCiudad.png";
+import BA from "./img/BA.png";
+import items from "./img/items.png";
+import "../../style/carousel/Card.scss";
 
 const AboutUs = () => {
-    return (
-        <>
-            <h1 className="tituloPrincipal">About Us</h1>
-            <div className="containerAboutUs">
-                Somos un grupo de estudiantes de React en Codo a Codo y este es nuestro TP, en el cual implementamos los conocimientos adquiridos durante la cursada
-            </div>
-            <div class="gallery">
-                <img src="./img/BA.png" alt="BA" width="600" height="400"/>
-            </div>
-            <div class="gallery">
-                <img src="./img/bsAsCiudad.png" alt="BACiudad" width="600" height="400"/>
-            </div>
-            <div class="gallery">
-                <img src="./img/codoAcodo.png" alt="CodoACodo" width="600" height="400"/>
-            </div>
-            <div class="gallery">
-                <img src="./img/items.png" alt="items" width="600" height="400"/>
-            </div>        
-        </>
-      )
-
-}
+  return (
+    <>
+      <div className="container">
+        <div className="text">
+          Somos un grupo de estudiantes de React en Codo a Codo.
+          <br />
+          Este sitio es nuestro Trabajo Práctico, en el cual implementamos los conocimientos
+          adquiridos durante la cursada
+        </div>
+        <div className="containerGallery">
+          <div className="gallery">
+            <img src={BA} alt="BA" width="600" height="400" />
+          </div>
+          <div className="gallery">
+            <img src={bsAsCiudad} alt="BACiudad" width="600" height="400" />
+          </div>
+          <div className="gallery">
+            <img src={codoAcodo} alt="CodoACodo" width="600" height="400" />
+          </div>
+          <div className="gallery">
+            <img src={items} alt="items" width="600" height="400" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default AboutUs;
