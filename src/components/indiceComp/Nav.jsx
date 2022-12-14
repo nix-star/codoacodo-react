@@ -67,7 +67,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <a class="dropdown-item" href="/">
-                    Suspense
+                    Thriller
                   </a>
                 </li>
                 <li>
@@ -97,7 +97,7 @@ const Nav = () => {
         <nav>
           <ul>
             <li>
-              <Link to={"/"}> Home</Link>
+              <Link to={"/"}>Home</Link>
             </li>
             <li>
               <Link to={"/destacados"}>Featured</Link>
@@ -115,7 +115,7 @@ const Nav = () => {
               <Link to={"/gifts"}>Stationery & Gifts</Link>
             </li>
             <li className="lastNoBorder">
-              <Link to={"/Music"}>Music & Movies</Link>
+              <Link to={"/music"}>Music & Movies</Link>
             </li>
           </ul>
         </nav>

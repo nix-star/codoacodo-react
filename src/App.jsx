@@ -11,6 +11,7 @@ import Busquedas from './routes/Busquedas'
 import BooksContainer from './components/carousel/BooksContainer'
 import CarouselTopic from './components/carousel/CarouselTopic'
 import AboutUs from './components/aboutUs/AboutUs'
+import Members from './components/indiceComp/Members'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='busquedas' element={<Busquedas />} />
         <Route path='carousel/:entity' element={<BooksContainer/>} /> {/* useParams() */}
         <Route path='aboutUs' element={<AboutUs />} />
+        <Route path='miembros' element={<Members />} />
       </Route>
     </Routes>
   </BrowserRouter>

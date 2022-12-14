@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import Members from "../indiceComp/Members";
+import { Link, Outlet } from "react-router-dom";
+//import Members from "../indiceComp/Members";
 import "../../style/inicio/footer.css";
 
 const Footer = ({ creator }) => {
@@ -12,7 +12,7 @@ const Footer = ({ creator }) => {
           <p className="about">
             Somos un grupo de estudiantes de React en Codo a Codo y este es
             nuestro TP, en el cual implementamos los conocimientos adquiridos
-            durante la cursada
+            durante la cursada, a cargo del profesor Gabriel Muñoz.
           </p>
           </div>
         </div>
@@ -22,9 +22,10 @@ const Footer = ({ creator }) => {
           <h3 className="us-title">Know <spam>us</spam></h3>
           <div className="us-bottom">
           
-          <Link to={"/members"} className="members"> 
+          <Link to={"/miembros"} className="members"> 
               Members
               </Link>
+             
 
           </div>
         </div>
@@ -88,6 +89,10 @@ const Footer = ({ creator }) => {
       </div>
 
       <h6 className="footer-team">{creator}</h6>
+
+      <section>
+        <Outlet />
+      </section>
     </>
   );
 };
