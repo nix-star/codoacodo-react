@@ -1,11 +1,15 @@
-import React from 'react'
-import AboutUs from '../components/aboutUs/aboutUs'
+import React from "react";
+import AboutUs from "../components/aboutUs/AboutUs";
 
-const Busquedas = () => {
-
+const AboutUs = () => {
   return (
-    <AboutUs />
-  )
-}
+    <>
+      <h1 className="tituloPrincipal">About Us</h1>
+      <main>
+        <AboutUs />
+      </main>
+    </>
+  );
+};
 
-export default Busquedas
+export default AboutUs;
