@@ -10,7 +10,7 @@ import Categorias from './routes/Categorias'
 import Busquedas from './routes/Busquedas'
 import BooksContainer from './components/carousel/BooksContainer'
 import CarouselTopic from './components/carousel/CarouselTopic'
-import AboutUs from './components/aboutUs/AboutUs'
+import AboutUs from './components/aboutUs/aboutUs'
 
 const App = () => {
   return (
