@@ -13,7 +13,7 @@ const Aside = () => {
               </h2>
             </div>
           </div>
-          <div className="iframeLinks-container">
+          
             <div className="bottomAside">
               <div className="film">
                 <h3>The new Books & More Film</h3>
@@ -30,7 +30,7 @@ const Aside = () => {
                 ></iframe>
               </div>
             </div>
-          </div>
+         
         </div>
 
         <div className="asideSubContainer sub2">

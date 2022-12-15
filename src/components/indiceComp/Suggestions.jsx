@@ -7,8 +7,7 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css"
 import Card from '../indiceComp/BookCard'
 import '../../style/inicio/CarouselSug.css'
-//import Card from "../carousel/Card";
-//import "../../style/carousel/Card.scss"
+
 
 
 const Suggestions = () => {

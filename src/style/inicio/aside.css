@@ -47,7 +47,6 @@
   border-radius: 15px;
   overflow: hidden;
   margin: 0 auto 30px;
-  
 }
 
 .logo > p {
@@ -80,7 +79,6 @@ aside.sites {
   width: 80%;
   height: 315px;
   border: 5px double rgb(67 88 97);
- 
 }
 
 strong {
@@ -133,27 +131,38 @@ color: rgb(187, 161, 69);
 /* MEDIA QUERYS */
 
 @media (max-width: 400px) {
+  .asideContainer {
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    margin-top: 340px
+  }
 
+  .asideSubContainer {
+    width: 90%;
+  }
 
+  .bottomAside {
+    width: 100%;
+    height: 40vh;
+    padding: 1%;
+  }
+
+  iframe {
+    width: 300px;
+    height: auto;
+    padding-bottom: 50px
+  }
 }
 
-
 @media (max-width: 600px) {
-
-
 }
 
 @media (max-width: 650px) {
- 
 }
 
 @media (max-width: 800px) {
-
 }
 
 @media (max-width: 1000px) {
-
 }
-
-
-

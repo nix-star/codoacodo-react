@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 .iconsBar-container {
     margin: 90px 0
@@ -44,3 +40,30 @@
     color: gray
 }
 
+/* MEDIA QUERYS */
+
+@media (max-width: 400px) {
+   
+    .iconsBar-container ul {
+        display: flex;
+        flex-flow: nowrap column;
+        width: 100%;
+        margin-top: 500px;
+       
+       border: 1px solid red
+    }
+   
+  }
+  
+  @media (max-width: 600px) {
+  }
+  
+  @media (max-width: 650px) {
+  }
+  
+  @media (max-width: 800px) {
+  }
+  
+  @media (max-width: 1000px) {
+  }
+  
