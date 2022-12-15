@@ -1,44 +1,18 @@
 import React from "react";
 import "../../style/inicio/nav.css";
 import { Link, Outlet } from "react-router-dom";
+import UpBar from "../indiceComp/header/UpBar"
+//import BurguerButton from "../indiceComp/BurguerButton"
+//import styled from "styled-components";
 
 const Nav = () => {
   return (
     <>
       <header>
-        <div className="upBar">
-          <ul>
-            <li>
-              <i className="fa-solid fa-location-dot locationIcon"></i>
-              <Link to={"/"}>STORES & EVENTS</Link>
-            </li>
-            <li>
-              <Link to={"/destacados"}>HOLIDAY SHIPPING</Link>
-            </li>
-            <li>
-              <Link to={"/novedades"}>MEMBERSHIP</Link>
-            </li>
-            <li>
-              <Link to={"/categorias"}>COUPONS & DEALS</Link>
-            </li>
-            <li>
-              <Link to={"/aboutUs"}>BESTSELLERS</Link>
-            </li>
-            <li className="lastNoBorder">
-              <Link to={"/gifts"}>GIFT CARD</Link>
-            </li>
-          </ul>
-          <div className="upBarRight">
-            <div className="account">
-            <i class="fa-regular fa-circle-user"></i>
-            <h3>MY ACCOUNT</h3>
-            </div>
-            <div className="wishlist">
-            <i class="fa-regular fa-heart"></i>
-            <h3>WISHLIST</h3>
-            </div>
-          </div>
-        </div>
+        
+       <UpBar />
+     
+        
         <top>
           <h1>
             BOOKS<spam>&</spam>MORE
@@ -95,7 +69,8 @@ const Nav = () => {
         </top>
 
         <nav>
-          <ul>
+          
+          <ul  className="links">
             <li>
               <Link to={"/"}>Home</Link>
             </li>
@@ -118,6 +93,7 @@ const Nav = () => {
               <Link to={"/music"}>Music & Movies</Link>
             </li>
           </ul>
+          
         </nav>
         <div className="christmasBanner">
           <div className="giftInfo">
@@ -129,6 +105,7 @@ const Nav = () => {
         <div className="subtitle">
         <h4>Books, movies, gifts and much more</h4>
         </div>
+        
       </header>
       <section>
         <Outlet />
@@ -138,3 +115,4 @@ const Nav = () => {
 };
 
 export default Nav;
+

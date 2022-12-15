@@ -207,10 +207,11 @@ nav ul li a:hover {
 /* MEDIA QUERYS */
 
 @media (max-width: 400px) {
-
+/*
   .upBar {
   display: none;
   }
+  */
 
   top {
     flex-direction: column;
@@ -222,10 +223,11 @@ nav ul li a:hover {
     margin: 3% 0;
   }
 
-
+/*
   nav {
     display: none;
     }
+    */
   
 .giftInfo>h2, .giftInfo>p {
   display: none;
