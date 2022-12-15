@@ -204,3 +204,188 @@ nav ul li a:hover {
   text-align: center;
 }
 
+/* MEDIA QUERYS */
+
+@media (max-width: 400px) {
+
+  .upBar {
+  display: none;
+  }
+
+  top {
+    flex-direction: column;
+    margin: 20px auto;
+   
+  }
+
+  .search {
+    margin: 3% 0;
+  }
+
+
+  nav {
+    display: none;
+    }
+  
+.giftInfo>h2, .giftInfo>p {
+  display: none;
+}
+
+.giftLink {
+  margin-left: 50%;
+  padding: 2%
+}
+
+.subtitle>h4 {
+  font-size: 1em;
+  padding: 1%
+}
+}
+
+
+@media (max-width: 600px) {
+
+  .upBar {
+  display: none;
+  }
+
+  top {
+    flex-direction: column;
+  }
+
+  .search {
+    margin: 3% 0;
+    width: 80%;
+  }
+
+  nav {
+    display: none;
+    }
+  
+.giftInfo>h2, .giftInfo>p {
+  display: none;
+}
+
+.giftLink {
+  margin-left: 50%;
+  padding: 2%
+}
+
+.subtitle>h4 {
+  font-size: 1em;
+  padding: 1%
+}
+}
+
+@media (max-width: 650px) {
+
+  .upBar {
+  display: none;
+  }
+
+  top {
+    flex-direction: column;
+  }
+
+  .search {
+    margin: 3% 0;
+    width: 80%;
+  }
+
+  nav {
+    display: none;
+    }
+  
+.giftInfo>h2, .giftInfo>p {
+  display: none;
+}
+
+.giftLink {
+  margin-left: 50%;
+  padding: 2%
+}
+
+.subtitle>h4 {
+  font-size: 1em;
+  padding: 1%
+}
+}
+
+@media (max-width: 800px) {
+
+  .upBar {
+  display: none;
+  }
+
+  top {
+    flex-direction: column;
+  }
+
+  .search {
+    margin: 3% 0;
+    width: 95%;
+  }
+
+  .searchSpaceText {
+    font-size: .8em
+  }
+
+  nav {
+    display: none;
+    }
+  
+.giftInfo>h2, .giftInfo>p {
+  display: none;
+}
+
+.giftLink {
+  width: 100%;
+  margin-left: 120%;
+}
+
+.subtitle>h4 {
+  font-size: 1em;
+  padding: 1%
+}
+}
+
+@media (max-width: 1000px) {
+
+  .upBar {
+  display: none;
+  }
+
+  top {
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+  }
+
+  .search {
+    margin: 3%;
+    width: 80%;
+  }
+
+  .searchSpaceText {
+    font-size: .8em
+  }
+
+  nav {
+    display: none;
+    }
+  
+.giftInfo>h2, .giftInfo>p {
+  display: none;
+}
+
+.giftLink {
+  width: 100%;
+  margin-left: 20%;
+}
+
+.subtitle>h4 {
+  font-size: 1em;
+  padding: 1%;
+  margin-left: -20%;
+}
+}

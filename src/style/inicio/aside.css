@@ -17,7 +17,8 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 5px;
-  margin: .5%;
+  margin: 0.5%;
+  padding: 2% 0;
   background: rgb(239, 203, 176);
   background: linear-gradient(
     0deg,
@@ -41,31 +42,32 @@
 
 .logo {
   width: 120px;
-  height: 120px;
+  height: 150px;
   background-color: rgb(34 40 44);
   border-radius: 15px;
   overflow: hidden;
   margin: 0 auto 30px;
+  
 }
 
 .logo > p {
   color: rgb(187, 161, 69);
   font-family: "Playfair Display", serif;
-  font-size: 8em; 
+  font-size: 7em;
 }
 
 .logoText {
   color: rgb(227, 225, 217);
   font-family: "Playfair Display", serif;
   font-size: 2em;
-  z-index: 10; 
+  z-index: 10;
 }
 
 .film {
   font-family: "Playfair Display", serif;
   text-align: center;
   color: rgb(69, 69, 69);
-  margin: 80px 0 20px
+  margin: 80px 0 40px;
 }
 
 aside.sites {
@@ -75,10 +77,10 @@ aside.sites {
   justify-content: space-around;
   font-size: 1em;
   color: rgb(67 88 97);
-  max-width: 90%;
-  height: 250px;
+  width: 80%;
+  height: 315px;
   border: 5px double rgb(67 88 97);
-  margin-bottom: 5px;
+ 
 }
 
 strong {
@@ -109,11 +111,26 @@ color: rgb(187, 161, 69);
   font-family: 'Playfair Display', serif;
   */
 
-  .logo2 {
-    background-color: rgb(105 118 158);
-  }
+.logo2 {
+  background-color: rgb(105 118 158);
+}
 
-  .logo2 > p {
-    color:  rgb(165, 171, 192);
-  
-  }
+.logo2 > p {
+  color: rgb(165, 171, 192);
+}
+
+.bottomAside {
+  width: 560px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0;
+  z-index: 10;
+}
+
+
+
+
+

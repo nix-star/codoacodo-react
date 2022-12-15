@@ -123,7 +123,7 @@ const Nav = () => {
           <div className="giftInfo">
             <h2>SHIP IT AND GIFT IT IN TIME</h2>
             <p>Date</p>
-            <Link to={"/gift"}>FIND A GIFT</Link>
+            <Link to={"/gift"} className="giftLink">FIND A GIFT</Link>
           </div>
         </div>
         <div className="subtitle">

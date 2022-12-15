@@ -15,8 +15,8 @@ export default function inicio() {
       <CarouselHome />
       <Main />
       <Suggestions />
-      <IconsBar />
       <Aside />
+      <IconsBar />
       <Footer creator="©2022 -  Created by GROUP 8 with  ❤️" />
     </>
   );
