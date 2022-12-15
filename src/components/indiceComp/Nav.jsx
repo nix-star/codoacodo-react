@@ -1,7 +1,8 @@
 import React from "react";
 import "../../style/inicio/nav.css";
 import { Link, Outlet } from "react-router-dom";
-import UpBar from "../indiceComp/header/UpBar"
+import UpBar from "./header/UpBar";
+import Navbar from "./header/Navbar";
 //import BurguerButton from "../indiceComp/BurguerButton"
 //import styled from "styled-components";
 
@@ -9,10 +10,8 @@ const Nav = () => {
   return (
     <>
       <header>
-        
-       <UpBar />
-     
-        
+        <UpBar />
+
         <top>
           <h1>
             BOOKS<spam>&</spam>MORE
@@ -57,7 +56,9 @@ const Nav = () => {
               </ul>
             </div>
             <div className="searchSpace">
-              <Link to={"/busquedas"} className="searchSpaceText">Search by Title, Author or Category</Link>
+              <Link to={"/busquedas"} className="searchSpaceText">
+                Search by Title, Author or Category
+              </Link>
             </div>
             <div className="magnifingGlass">
               <i class="fa-solid fa-magnifying-glass"></i>
@@ -67,45 +68,20 @@ const Nav = () => {
             <i className="fa-solid fa-cart-shopping shopIcon"></i>
           </div>
         </top>
+        <Navbar />
 
-        <nav>
-          
-          <ul  className="links">
-            <li>
-              <Link to={"/"}>Home</Link>
-            </li>
-            <li>
-              <Link to={"/destacados"}>Featured</Link>
-            </li>
-            <li>
-              <Link to={"/novedades"}>News</Link>
-            </li>
-            <li>
-              <Link to={"/categorias"}>Categories</Link>
-            </li>
-            <li>
-              <Link to={"/aboutUs"}>About Us</Link>
-            </li>
-            <li>
-              <Link to={"/gifts"}>Stationery & Gifts</Link>
-            </li>
-            <li className="lastNoBorder">
-              <Link to={"/music"}>Music & Movies</Link>
-            </li>
-          </ul>
-          
-        </nav>
         <div className="christmasBanner">
           <div className="giftInfo">
             <h2>SHIP IT AND GIFT IT IN TIME</h2>
             <p>Date</p>
-            <Link to={"/gift"} className="giftLink">FIND A GIFT</Link>
+            <Link to={"/gift"} className="giftLink">
+              FIND A GIFT
+            </Link>
           </div>
         </div>
         <div className="subtitle">
-        <h4>Books, movies, gifts and much more</h4>
+          <h4>Books, movies, gifts and much more</h4>
         </div>
-        
       </header>
       <section>
         <Outlet />
@@ -115,4 +91,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
