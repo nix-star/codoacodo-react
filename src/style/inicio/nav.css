@@ -247,9 +247,11 @@ nav ul li a:hover {
 
 @media (max-width: 600px) {
 
+  /*
   .upBar {
   display: none;
   }
+  */
 
   top {
     flex-direction: column;
@@ -259,10 +261,10 @@ nav ul li a:hover {
     margin: 3% 0;
     width: 80%;
   }
-
+/*
   nav {
     display: none;
-    }
+    } */
   
 .giftInfo>h2, .giftInfo>p {
   display: none;
@@ -281,9 +283,10 @@ nav ul li a:hover {
 
 @media (max-width: 650px) {
 
+  /*
   .upBar {
   display: none;
-  }
+  }*/
 
   top {
     flex-direction: column;
@@ -294,9 +297,10 @@ nav ul li a:hover {
     width: 80%;
   }
 
+  /*
   nav {
     display: none;
-    }
+    } */
   
 .giftInfo>h2, .giftInfo>p {
   display: none;
@@ -314,10 +318,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 800px) {
-
+/*
   .upBar {
   display: none;
-  }
+  } */
 
   top {
     flex-direction: column;
@@ -332,9 +336,10 @@ nav ul li a:hover {
     font-size: .8em
   }
 
+  /*
   nav {
     display: none;
-    }
+    } */
   
 .giftInfo>h2, .giftInfo>p {
   display: none;
@@ -353,9 +358,10 @@ nav ul li a:hover {
 
 @media (max-width: 1000px) {
 
+  /*
   .upBar {
   display: none;
-  }
+  } */
 
   top {
     flex-direction: column;
@@ -372,9 +378,10 @@ nav ul li a:hover {
     font-size: .8em
   }
 
+  /*
   nav {
     display: none;
-    }
+    } */
   
 .giftInfo>h2, .giftInfo>p {
   display: none;
